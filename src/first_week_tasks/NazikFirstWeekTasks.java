@@ -43,8 +43,34 @@ Write a method which can identify given numbers is even or odd:
 
     }
 
-}
+
 /* Task 2:
  Create am method that can divide two numbers without using division operator
 */
 
+    public static void FINRA(int num) {
+
+        for (int x = 1; x <= 30; x++) {
+            if (x % 25 == 0) {
+                System.out.println("FINRA");
+            } else if (x % 3 == 0) {
+                System.out.println("FIN");
+            } else if (x % 5 == 0) {
+                System.out.println("RA");
+            } else {
+                System.out.println(x);
+            }
+
+        }
+    }
+}
+
+/*
+FINRA:
+
+Write a method which prints out the numbers from  1 to 30 but for numbers which
+are a multiple of 3 print "FIN" instead of the number and for numbers which are
+a multiple of 5, print "RA" instead of the number. For numbers which are a
+multiple of both 3 and 5, print "FINRA" instead of the number.
+
+ */
