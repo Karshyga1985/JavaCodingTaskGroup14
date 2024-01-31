@@ -48,19 +48,20 @@ Write a method which can identify given numbers is even or odd:
  Create am method that can divide two numbers without using division operator
 */
 
-    public static void FINRA(int num) {
+    public static void FINRA() {
 
+        String temp = "";
         for (int x = 1; x <= 30; x++) {
             if (x % 25 == 0) {
-                System.out.println("FINRA");
+                temp = "FINRA";
             } else if (x % 3 == 0) {
-                System.out.println("FIN");
+                temp = "FIN";
             } else if (x % 5 == 0) {
-                System.out.println("RA");
+                temp = "RA";
             } else {
-                System.out.println(x);
+                temp = x + " ";
             }
-
+            System.out.println(temp);
         }
     }
 }
