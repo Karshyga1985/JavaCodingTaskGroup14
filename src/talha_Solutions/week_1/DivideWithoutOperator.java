@@ -1,27 +1,12 @@
-package first_week_tasks;
+package talha_Solutions.week_1;
 
-public class TalhaFirstWeek {
+public class DivideWithoutOperator {
     /*
- Numbers -- odd & even
-Write a method which can identifies given number is even or odd
-Ex: identify(5) -> "Odd"
- identify(6) -> "Even"
- */
-    public static void oddOrEven(int number) {
-        if (number % 2 == 0) {
-            System.out.println(number + " is even.");
-        } else {
-            System.out.println(number + " is odd.");
-        }
-    }
+Task 2
 
-
-    /*
-    Task 2
-
-    Numbers -- Divide without / operator
-    Write a method that can divide two numbers without using division operator
-    */
+Numbers -- Divide without / operator
+Write a method that can divide two numbers without using division operator
+*/
     public static int division(int num1, int num2) {
         int result = 0;
         while (num1 >= num2) {
@@ -77,32 +62,6 @@ Ex: identify(5) -> "Odd"
 
         result = result * s;
         System.out.println(result + result2 + t);
-
-    }
-
-    /*
-Task 3
-
-FINRA:
-Write a method which prints out the numbers from  1 to 30 but for numbers which
-are a multiple of 3 print "FIN" instead of the number and for numbers which are
-a multiple of 5, print "RA" instead of the number. For numbers which are a
-multiple of both 3 and 5, print "FINRA" instead of the number.
-     */
-    public static void finra() {
-        for (int i = 1; i <= 30; i++) {
-            if (i % 15 == 0) {
-                System.out.println("FINRA");
-            } else if (i % 3 == 0) {
-                System.out.println("FIN");
-            } else if (i % 5 == 0) {
-                System.out.println("RA");
-            } else {
-                System.out.println(i);
-            }
-
-        }
-
 
     }
 
