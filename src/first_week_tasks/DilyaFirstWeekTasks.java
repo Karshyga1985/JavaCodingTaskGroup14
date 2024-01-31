@@ -65,6 +65,7 @@ public class DilyaFirstWeekTasks {
                 System.out.println(i);
             }
         }
+
     }
 
 
