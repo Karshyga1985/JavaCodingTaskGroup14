@@ -1,3 +1,5 @@
+package first_week_tasks;
+
 public class ChristineFirstWeekTask {
 
     /*
