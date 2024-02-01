@@ -70,10 +70,7 @@ Ex: identify(5) -> "Odd"
             a = 0;
             z = z % num2;
         }
-        while (result2.endsWith("0")){
-            String str = result2.substring(0,result2.length()-1);
-            result2=str;
-        }
+
 
         result = result * s;
         System.out.println(result + result2 + t);
