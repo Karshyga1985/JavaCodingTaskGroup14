@@ -23,14 +23,14 @@ public class KaraFirstWeekTasks {
     // Solution 1 for Task 1
     public static void oddAndEvenNumber(int number){
         if(number % 2 == 0){
-            System.out.println("Even");
+            System.out.println(number + " is even number.");
         }else{
-            System.out.println("Odd");
+            System.out.println(number + " is odd number.");
         }
     }
     // Solution 2 for Task 1
     public static String oddAndEven(int number){
-        return number % 2 == 0 ? "Even" : "Odd";
+        return number % 2 == 0 ? number + " is even number" : number + " is odd number";
     }
 
     /*
