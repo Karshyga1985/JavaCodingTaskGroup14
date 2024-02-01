@@ -59,10 +59,3 @@ multiple of both 3 and 5, print "FINRA" instead of the number.
 
 
 }
-/*
-Task 2
-
-Numbers -- Divide without / operator
-Write a method that can divide two numbers without using division operator
-
- */
