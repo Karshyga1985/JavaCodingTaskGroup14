@@ -8,15 +8,22 @@ public class TaskSolutions {
         */
     public static void main(String[] args) {
 
-        int a = 4;
-        int b = 10;
 
-        a = a + b; // 14
-        b = a - b; // 4
-        a = a - b;
+        consecutiveNumbers(50);
 
-        System.out.println("a " + a);
-        System.out.println("b " + b);
+
+        System.out.println("===================================");
+
+
+        int a = 10;
+        int b = 15;
+
+        a = a + b; // 25
+        b = a - b; // 10
+        a = a - b; // a = 15, b = 10;
+
+        System.out.println("a = " + a);
+        System.out.println("b = " + b);
 
 
         System.out.println("=================================");
