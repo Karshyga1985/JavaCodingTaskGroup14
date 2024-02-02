@@ -15,6 +15,7 @@ public class SwapNumbers {
         System.out.println("x = " + x);
 
 
+        //String str0 = "Pineapple";
         String str = "Apple";
         String str2 = "Pen";
 
