@@ -2,7 +2,7 @@ package nazik_solutions.week2;
 
 public class ConsecutiveNumbers {
     public static void main(String[] args) {
-        consecutiveNumbers(25);
+        consecutiveNumbers(60);
     }
 
     public static void consecutiveNumbers(int N){
@@ -25,7 +25,7 @@ public class ConsecutiveNumbers {
             System.out.println(result.isEmpty() ? a : result);
         }
 
-        /*output for N = 25:
+        /*output for N = 60:
         1
         Codility
         Test
