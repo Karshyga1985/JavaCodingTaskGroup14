@@ -1,3 +1,5 @@
+package first_week_tasks;
+
 public class ChristineFirstWeekTask {
 
     /*
@@ -71,6 +73,7 @@ multiple of both 3 and 5, print "FINRA" instead of the number.
             }
         }
     }
+
 
 
 
