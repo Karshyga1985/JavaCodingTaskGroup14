@@ -12,6 +12,10 @@ public class ConsecutiveNums {
         System.out.println("Enter number:");
         int n = sc.nextInt();
 
+        //Test code by running and typing 30 into command line
+        function(n);
+    }
+    public static void function(int n){
         for(int i = 1; i<=n; i++) {
 
             if (i % 5 == 0 && i % 3 == 0 && i % 2 == 0) {
@@ -40,8 +44,6 @@ public class ConsecutiveNums {
             }
 
         }
-
-        //Test code by running and typing 30 into command line
     }
 
 }
