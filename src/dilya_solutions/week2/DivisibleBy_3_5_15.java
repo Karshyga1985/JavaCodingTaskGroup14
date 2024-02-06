@@ -14,6 +14,10 @@ public class DivisibleBy_3_5_15 {
      */
 
     public static void main(String[] args) {
+        divisible();
+    }
+
+    public static void divisible(){
         String divBy3 = "Divisible by 3: ";
         String divBy5 = "Divisible by 5: ";
         String divBy15 = "Divisible by 15: ";
