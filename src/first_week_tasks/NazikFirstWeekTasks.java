@@ -52,7 +52,7 @@ Write a method which can identify given numbers is even or odd:
 
         String temp = "";
         for (int x = 1; x <= 30; x++) {
-            if (x % 25 == 0) {
+            if (x % 30 == 0) {
                 temp = "FINRA";
             } else if (x % 3 == 0) {
                 temp = "FIN";
