@@ -14,6 +14,7 @@ public class ConsecutiveNums {
 
         //Test code by running and typing 30 into command line
         function(n);
+
     }
     public static void function(int n){
         for(int i = 1; i<=n; i++) {
@@ -42,8 +43,9 @@ public class ConsecutiveNums {
             else{
                 System.out.println(i);
             }
-
         }
     }
+
+
 
 }
