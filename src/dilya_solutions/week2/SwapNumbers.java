@@ -1,7 +1,7 @@
 package dilya_solutions.week2;
 
 public class SwapNumbers {
-    //Swap two variables' values without using a third variable
+    //Swap two variables' values without using a third variable.
     public static void main(String[] args) {
         int a = 3;
         int b = 4;
