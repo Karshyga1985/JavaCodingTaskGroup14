@@ -19,6 +19,7 @@ public class KhusanFirstWeekTasks {
         System.out.println("========= 2 Task ===============");
         quotient(28, 4);
         quotient(27, 4);
+        quotient(27, 0);
 
         System.out.println("========= 3 Task ===============");
         Finra();
