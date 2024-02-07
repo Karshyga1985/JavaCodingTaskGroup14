@@ -24,8 +24,8 @@ public class ConsecutiveNumbers {
 
             System.out.println(result.isEmpty() ? a : result);
         }
-
-        /*output for N = 60:
+        /*
+        Output for N = 60;
         1
         Codility
         Test
@@ -51,7 +51,43 @@ public class ConsecutiveNumbers {
         23
         CodilityTest
         Coders
-          */
+        Codility
+        Test
+        Codility
+        29
+        CodilityTestCoders
+        31
+        Codility
+        Test
+        Codility
+        Coders
+        CodilityTest
+        37
+        Codility
+        Test
+        CodilityCoders
+        41
+        CodilityTest
+        43
+        Codility
+        TestCoders
+        Codility
+        47
+        CodilityTest
+        49
+        CodilityCoders
+        Test
+        Codility
+        53
+        CodilityTest
+        Coders
+        Codility
+        Test
+        Codility
+        59
+        CodilityTestCoders
+
+         */
     }
 
 }
