@@ -8,6 +8,9 @@ public class Bilgehan_First_Week_Task {
         finRa(30);
         System.out.println();
         System.out.println(divideWithNoOperator(10, 3));
+        finRa(-85);
+
+
 
     }
 
@@ -34,9 +37,8 @@ public class Bilgehan_First_Week_Task {
 
 
     public static void finRa(int num) {
+
         ArrayList<Integer> nums = new ArrayList<>() ;
-
-
         for (int i = 1; i <=num ; i++) {
             nums.add(i) ;
         }
