@@ -82,7 +82,7 @@ public class ConsecutiveNumbers {
 
         consecutiveNumbers(24);
         System.out.println("---------------------------------------");
-        consecutiveNumbers2(24);
+        consecutiveNumbers2(50);
 
 
     }
