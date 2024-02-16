@@ -1,4 +1,4 @@
-package first_week_tasks;
+package christine_solutions.week1;
 
 public class ChristineFirstWeekTask {
 
