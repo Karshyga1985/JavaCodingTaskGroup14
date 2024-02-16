@@ -1,6 +1,6 @@
 package eren_solutions.week2;
 
-public class TaskSolutions {
+public class Task_Solutions {
 
     //TASK-1: SwapNumbers
     /*

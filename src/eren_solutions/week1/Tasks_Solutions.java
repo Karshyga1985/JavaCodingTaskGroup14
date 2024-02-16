@@ -1,6 +1,6 @@
 package eren_solutions.week1;
 
-public class Eren_Week1_Tasks_Solutions {
+public class Tasks_Solutions {
 
     public static void main(String[] args) {
 
