@@ -1,6 +1,6 @@
 package week3;
 
-public class Task2 {
+public class ReverseNegativeNumber {
 
     /*
 

@@ -1,6 +1,6 @@
 package week3;
 
-public class Task1 {
+public class PrimeNumber {
 
 
 
