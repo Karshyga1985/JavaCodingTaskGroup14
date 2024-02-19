@@ -1,6 +1,6 @@
 package Week2Solutions;
 
-import week2.ConsecutiveNumbers;
+
 
 public class ConsecutiveNumber {
 
