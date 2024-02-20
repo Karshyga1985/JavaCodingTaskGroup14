@@ -6,12 +6,12 @@ public class ReverseNegativeNumber {
         if(num >= 0){
             return num;
         }
-        int posnum = -num;
+        num *= -1;
         int result = 0;
-        while(posnum != 0){
-            int temp = posnum % 10;
-            result = result * 10 + temp;
-            posnum /= 10;
+        while(num>0){
+            int lastDigit = num % 10;
+            result = result * 10 + lastDigit;
+            num /= 10;
         }
         return -result;
     }
