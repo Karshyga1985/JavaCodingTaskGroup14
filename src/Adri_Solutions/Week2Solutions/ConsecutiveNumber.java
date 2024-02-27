@@ -1,7 +1,34 @@
-package week2;
+package Week2Solutions;
 
-public class ConsecutiveNumbers {
-    /*
+
+
+public class ConsecutiveNumber {
+
+   public static void ConsecutiveNumber(int n){
+       for (int i = 1; i <=n; i++) {
+           String result = "";
+          if (i % 2 == 0){
+              result+="Codility";
+          }
+          if (i % 3 == 0){
+              result += "Test";
+          }
+          if (i % 5 == 0){
+              result += "Coders";
+          }
+
+           System.out.println(result.isEmpty() ? i : result);
+       }
+
+
+   }
+
+    public static void main(String[] args) {
+
+        ConsecutiveNumber(64);
+    }
+}
+ /*
     Write a function:
     that, given a positive integer N, prints the consecutive numbers from 1 to N, each on a separate line.
     However, any number divisible by 2, 3 or 5 should be replaced by the word Codility, Test or Coders respectively.
@@ -29,4 +56,3 @@ public class ConsecutiveNumbers {
     Codility
     17
      */
-}
