@@ -5,7 +5,6 @@ public class FrequencyOfCharacters {
     public static void main(String[] args) {
 
 
-
          /*
    String_Task#1 --> Frequency of Characters
     Writes a return method that can find the frequency of  characters
@@ -35,7 +34,7 @@ public class FrequencyOfCharacters {
             }
 
             if (result.contains("" + ch)) { // if the character is already included in the result
-                continue; // skipp that character
+                continue; // skip that character
             }
             result += ch + "" + count;
         }
