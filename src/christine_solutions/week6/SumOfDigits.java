@@ -1,6 +1,17 @@
 package christine_solutions.week6;
 
 public class SumOfDigits {
+
+
+    public static int sum(String nums){
+        int sum = 0;
+
+        //code goes here
+
+
+        return sum;
+    }
+
 }
 
 /*
