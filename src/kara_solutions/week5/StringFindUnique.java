@@ -18,8 +18,8 @@ public class StringFindUnique {
         String unique = "";
         for(int i = 0; i < str.length(); i++){
             char each = str.charAt(i);
-            if(str.indexOf(each) == str.lastIndexOf(each)){
-                unique += each;
+            if(str.indexOf(each) == str.lastIndexOf(each)){//0 == 2 9 == 9
+                unique += each;//DEF
             }
         }
         return unique;
@@ -27,8 +27,8 @@ public class StringFindUnique {
 
     public static String findUnique1(String str) {
         String unique = "";
-        Set<Character> allChar = new HashSet<>();
-        Set<Character> duplicates = new HashSet<>();
+        Set<Character> allChar = new HashSet<>();//DEF
+        Set<Character> duplicates = new HashSet<>();//ABC
 
         for (int i = 0; i < str.length(); i++) {
             char each = str.charAt(i);
