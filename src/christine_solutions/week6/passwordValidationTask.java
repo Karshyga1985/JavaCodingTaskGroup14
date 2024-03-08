@@ -2,8 +2,56 @@ package christine_solutions.week6;
 
 public class passwordValidationTask {
 
+    public static void main(String[] args) {
+
+        System.out.println("validPassword(\"Christine@123\") = " + validPassword("Christine@123"));
+
+        System.out.println("validPassword(\"christine123\") = " + validPassword("christine123"));
+
+        System.out.println("validPassword(\"christine\") = " + validPassword("christine"));
+
+        System.out.println("validPassword(\"chris\") = " + validPassword("chris"));
 
 
+    }
+
+
+    public static boolean validPassword(String password){
+
+        boolean oneUppercase = false,
+                oneLowercase = false,
+                oneDigit = false,
+                oneSpecialChar = false;
+
+        if (password.length() <= 5){
+            return false;
+        }else{
+
+            for (int i = 0 ; i < password.length(); i ++){
+                if(Character.isUpperCase(password.charAt(i))){
+                    oneUppercase = true;
+                }
+                if(Character.isLowerCase(password.charAt(i))){
+                    oneLowercase = true;
+                }
+                if(  !(Character.isLetterOrDigit(password.charAt(i)))  ){
+                    oneSpecialChar = true;
+                }
+                if(Character.isDigit(password.charAt(i))){
+                    oneDigit = true;
+                }
+            }
+
+
+            if(oneUppercase == true && oneLowercase == true && oneSpecialChar == true && oneDigit == true){
+                return true;
+            } else {
+                return false;
+            }
+
+        }
+
+    }
 }
 /*
 1-String -- Password Validation Task
