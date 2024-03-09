@@ -1,12 +1,25 @@
 package christine_solutions.week6;
 
+import java.util.ArrayList;
+
 public class SumOfDigits {
+
+    public static void main(String[] args) {
+        System.out.println("sum(\"2,5,6,8\") = " + sum("2,5,6,8"));
+    }
 
 
     public static int sum(String nums){
+
+
         int sum = 0;
 
-        //code goes here
+        String[] arr = nums.split(",");
+
+
+        for (String each : arr) {
+            sum += Integer.parseInt(each);
+        }
 
 
         return sum;
