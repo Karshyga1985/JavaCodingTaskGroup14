@@ -1,8 +1,6 @@
 package christine_solutions.week6;
 
-import java.lang.reflect.Array;
-
-public class Array_FindMaximum {
+public class FindMaximum {
 
     public static void main(String[] args) {
 

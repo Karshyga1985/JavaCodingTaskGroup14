@@ -6,11 +6,13 @@ public class passwordValidationTask {
 
         System.out.println("validPassword(\"Christine@123\") = " + validPassword("Christine@123"));
 
-        System.out.println("validPassword(\"christine123\") = " + validPassword("christine123"));
+        System.out.println("validPassword(\"Christine123\") = " + validPassword("christine123"));
 
-        System.out.println("validPassword(\"christine\") = " + validPassword("christine"));
+        System.out.println("validPassword(\"Christine@\") = " + validPassword("christine"));
 
         System.out.println("validPassword(\"chris\") = " + validPassword("chris"));
+
+        System.out.println("validPassword(\"christine\") = " + validPassword("christine"));
 
 
     }
@@ -43,11 +45,7 @@ public class passwordValidationTask {
             }
 
 
-            if(oneUppercase == true && oneLowercase == true && oneSpecialChar == true && oneDigit == true){
-                return true;
-            } else {
-                return false;
-            }
+            return oneUppercase && oneLowercase && oneSpecialChar && oneDigit;
 
         }
 
