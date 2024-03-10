@@ -37,13 +37,4 @@ Ex: unique("AAABBBCCCDEF") ==> "DEF";
 
     } // unique
 
-
-
-
-
-
-
-
-
-
 }
