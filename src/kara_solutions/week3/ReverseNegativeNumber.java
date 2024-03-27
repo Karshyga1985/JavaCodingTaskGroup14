@@ -15,7 +15,7 @@ public class ReverseNegativeNumber {
         }
         return -result;
     }
-    //second solution
+    //second solutiongit
     public static int reversedNegNumber(int numberNegative){
         String str = ("" + numberNegative).substring(1);
         String reversedStr = "";
