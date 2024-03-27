@@ -8,6 +8,7 @@ public class SumOfDigits {
         System.out.println("sum(\"2,5,6,8\") = " + sum("2,5,6,8"));
         System.out.println("sum(\"14, 25, 3\") = " + sum("14, 25, 3"));
         System.out.println("sum(\"abc, 123, 4, 56\") = " + sum("abc, 123, 4, 56"));
+        System.out.println("sum(\"@, 23, 0, 43, ac \") = " + sum("@, 23, 0, 43, ac "));
     }
 
 
