@@ -7,14 +7,6 @@ import java.util.Set;
 
 public class Array_UniqueIntegersOfSumZero {
 
-    public static void main(String[] args) {
-        int N = 3;
-        int[] result = Array_UniqueIntegersSumZero.UniqueIntegersSumZero.generateArrayWithZeroSum(N);
-        System.out.println(Arrays.toString(result));
-
-    }
-  
-    public class Array_UniqueIntegersSumZero {
 
 /*Array - N unique integers that sum up to 0
 Write a function that given an integer N (1 < N < 100), returns an array
@@ -25,10 +17,13 @@ The answer [1, - 1,1,3] would be incorrect (because value 1 occurs twice).
 For N = 3, one of the possible answers is [-1,0,1] (but there are many more
 correct answers).*/
 
-
         public static void main(String[] args) {
-            int N = 3;
+            int N = 6;
             int[] result = UniqueIntegersSumZero.generateArrayWithZeroSum(N);
+
+            System.out.println(Arrays.toString(result));
+
+        }
 
 
         public class UniqueIntegersSumZero {
