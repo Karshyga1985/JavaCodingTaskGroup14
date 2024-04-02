@@ -26,7 +26,7 @@ correct answers).*/
         }
 
 
-        public class UniqueIntegersSumZero {
+        public static class UniqueIntegersSumZero {
 
             public static int[] generateArrayWithZeroSum(int N) {
                 if (N <= 1 || N >= 100) {
