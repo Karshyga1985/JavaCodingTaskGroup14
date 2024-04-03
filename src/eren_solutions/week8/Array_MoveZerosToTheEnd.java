@@ -34,11 +34,11 @@ output: [1, 2, 3, 4, 0, 0, 0,0]
 
     public static void main(String[] args) {
         int[] nums = {0, 1, 0, 3, 12, 0, 5};
-        System.out.println("Original array: " + Arrays.toString(nums));
+        System.out.println( Arrays.toString(nums)); // Original array before zeros move to end
 
         moveZerosToEnd(nums);
 
-        System.out.println("Array after moving zeros to end: " + Arrays.toString(nums));
+        System.out.println(Arrays.toString(nums));// Array after moving zeros to end
 
     }
 }
