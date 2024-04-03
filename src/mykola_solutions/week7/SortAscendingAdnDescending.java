@@ -41,7 +41,7 @@ public class SortAscendingAdnDescending {
     Ex: int[] arr = {10,20,7, 8, 90};
     arr = Sort(arr); ==> {90, 20, 10, 8, 7};
      */
-    public static int[] sortDiscending(int[] arr){
+    public static int[] sortDescending(int[] arr){
 
         for (int i = 1; i < arr.length; i++) {
 
@@ -71,7 +71,7 @@ public class SortAscendingAdnDescending {
 
         int[] arr = {200, 1, 2, 3, 4, 5, -6, 100};
         System.out.println(Arrays.toString(sortAscending(arr)));
-        System.out.println(Arrays.toString(sortDiscending(arr)));
+        System.out.println(Arrays.toString(sortDescending(arr)));
 
     }
 
