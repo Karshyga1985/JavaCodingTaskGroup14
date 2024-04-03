@@ -25,7 +25,7 @@ public class passwordValidationTask {
                 oneDigit = false,
                 oneSpecialChar = false;
 
-        if (password.length() <= 5){
+        if (password.length() <= 5 || password.contains(" ")){
             return false;
         }else{
 
