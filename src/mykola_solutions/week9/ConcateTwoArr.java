@@ -9,10 +9,9 @@ public class ConcateTwoArr {
 
     public static int[] concatenateTwoArr(int[] arr1, int[] arr2){
         int[] result = Arrays.copyOf(arr1,arr1.length+arr2.length);
-        int count = 0;
-        for (int i = arr1.length; i < result.length; i++) {
-            result[i] = arr2[count];
-            count++;
+        for (int i = arr1.length, j =0 ; i < result.length;j++, i++) {
+            result[i] = arr2[j];
+
         }
         return result;
     }
