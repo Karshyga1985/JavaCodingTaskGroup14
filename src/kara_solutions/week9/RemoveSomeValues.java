@@ -1,6 +1,7 @@
 package kara_solutions.week9;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Iterator;
 
 public class RemoveSomeValues {
@@ -16,6 +17,11 @@ public class RemoveSomeValues {
         System.out.println("removeSomeValues(list) = " + removeSomeValues(list));
         System.out.println("removeSomeValues1(list) = " + removeSomeValues1(list));
         System.out.println("removeSomeValues1(list) = " + removeSomeValues2(list));
+
+        ArrayList<Integer> list1 = new ArrayList<>(Arrays.asList(155, 145, 2, 15, 78, -5, 65, 185, 2000, 300,
+                500, 12, 45, 85, 4, 1, 1000, 563));
+        System.out.println(removeSomeValues2(list1));
+
     }
 
 
@@ -44,6 +50,7 @@ public class RemoveSomeValues {
         for(int i = 0; i < list.size(); i++){
             if(list.get(i) > 100){
                 list.remove(list.get(i));
+                i--;// decrement the loop variable i to properly handle the removal without skipping elements
             }
         }
         return list;
