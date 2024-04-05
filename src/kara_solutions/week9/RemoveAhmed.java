@@ -14,6 +14,9 @@ public class RemoveAhmed {
         System.out.println("removeAhmed(listOfName) = " + removeAhmed1(listOfName));
         System.out.println("removeAhmed(listOfName) = " + removeAhmed2(listOfName));
 
+        ArrayList<String> listOfName1 = new ArrayList<>(Arrays.asList("Ahmed", "John", "Eric", "Ahmed", "Kara",
+                "Burkhan", "Salma", "Ahmed", "Mike", "Lola", "Ahmed", "Ahmed", "Sally", "Festine"));
+        System.out.println("removeAhmed1(listOfName1) = " + removeAhmed1(listOfName1));
 
 
     }
@@ -31,6 +34,7 @@ public class RemoveAhmed {
         for(int i = 0; i < list.size(); i++){
             if(list.get(i).equals("Ahmed")){
                 list.remove(list.get(i));
+                i--;
             }
         }
         return list;
