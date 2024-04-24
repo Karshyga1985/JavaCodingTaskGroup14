@@ -33,9 +33,7 @@ Write a method that can return the minimum value from a map
         for (Integer eachValue : map.values()) {
             testMap.put(eachValue,0);
         }
-        for (Integer eachKey : testMap.keySet()) {
-            stack.add(eachKey);
-        }
+        stack.addAll(testMap.keySet());
 
         return stack.pop();
 
