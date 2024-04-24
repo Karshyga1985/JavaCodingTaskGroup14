@@ -42,6 +42,19 @@ public class Frequency {
         return map;
     }
 
+    public static Map<Character,Integer> frequency2(String str){
+        Map<Character,Integer> result = new LinkedHashMap<>();
+
+        for (char eachChar : str.toCharArray()) {
+            if(result.containsKey(eachChar)){
+                result.put(eachChar,result.get(eachChar)+1);
+            }else {
+                result.put(eachChar,1);
+            }
+        }
+        return result;
+    }
+
 
 
     public static void main(String[] args) {
