@@ -65,31 +65,7 @@ public class AlphanumericString {
     }
 
 
-    public static String sortString(String str) {
-        String result = "";
 
-        for (int i = 0; i < str.length(); i++) {
-            Character ch = str.charAt(i);
-            Character ch1 = str.charAt(i + 1);
-            if (Character.isLetter(ch)) {
-                if (Character.isLetter(ch1)) {
-                    result += ch + "";
-                } else {
-                    result += ch + ",";
-                }
-            }
-            if (Character.isDigit(ch)) {
-                if (Character.isDigit(ch1)) {
-                    result += ch + "";
-                } else {
-                    result += ch + ",";
-                }
-            }
-        }
-
-
-        return result;
-    }
 
 }
 

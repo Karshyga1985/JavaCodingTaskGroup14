@@ -8,8 +8,10 @@ public class Armstrong {
 
         int num = 153;
         int num2 = 6987;
+        int num3 = 9474;
         System.out.println(armstrong(num));
         System.out.println(armstrong(num2));
+        System.out.println(armstrong(num3));
     }
     public static boolean armstrong(int num){
         int sum = 0;
