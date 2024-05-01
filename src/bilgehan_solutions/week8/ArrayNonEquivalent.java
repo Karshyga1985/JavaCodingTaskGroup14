@@ -1,8 +1,11 @@
 package bilgehan_solutions.week8;
 
+import java.util.Arrays;
+
 public class ArrayNonEquivalent {
     public static void main(String[] args) {
 
+        System.out.println(Arrays.toString(nonEquivalent(5)));
     }
      /*
         Array - N unique integers that sum up to 0
@@ -14,30 +17,25 @@ public class ArrayNonEquivalent {
     For N = 3 one of the possible answers is [-1,0,1] (but there are many more
     correct answers).
      */
-//
-//    public static int[] nonEquivalent(int num) {
-//
-//        int[] arr = new int[num] ;
-//        int temp= num/2 ;
-//
-//        for (int i = 0; i <num ; i+=2) {
-//            int n = num/2 ;
-//            if (num%2 ==0){
-//                arr[i]=
-//            }
-//        }
-//
 
-//
-//
-//
-//        return arr ;
-//    }
+    public static int[] nonEquivalent(int n) {
+        if(n<=1 || n>=100) {
+            throw new IllegalArgumentException("N must be bigger than 1 and smaller than 100");
+            }
+        int[] arr = new int[n];
+        for (int i = 1; i < arr.length; i++) {
+            arr[i] = i;
+        }
+        arr[0] = -((n-1)*n /2) ;
+        return arr;
+        }
+
+    }
 
 
 
 
-}
+
     /*
         Array - N unique integers that sum up to 0
     Write a function that given an integer N (1 < N < 100), returns an array
