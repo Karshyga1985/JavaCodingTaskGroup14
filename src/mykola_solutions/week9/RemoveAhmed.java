@@ -25,6 +25,7 @@ Write a java operation to remove all the names named Ahmed
     }
 
     public static void removeAhmad(List<String> list){
+
         list.removeIf(p -> p.equals("Ahmed"));
     }
 

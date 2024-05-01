@@ -7,8 +7,9 @@ import java.util.List;
 public class ArrayListSortAsc {
     public static void main(String[] args) {
         ArrayList<Integer> list = new ArrayList<>(Arrays.asList(5, 6, 9,-9, 7, 10, 5, 3, 8, 8, -15,6,0));
+        ArrayList<Integer> list2 = new ArrayList<>(Arrays.asList(5, 6, 9,-9, 7, 10, 5, 3, 8, 8, -15,6,0));
         System.out.println(ascendingList(list));
-        System.out.println(ascendingList2(list));
+        System.out.println(ascendingList2(list2));
     }
 
     public static ArrayList<Integer> ascendingList(ArrayList<Integer> list){
